@@ -1,0 +1,6 @@
+{
+    "ignoreTestFiles": [
+        "**/answer/*",
+        "*answer.js"
+    ]
+}
