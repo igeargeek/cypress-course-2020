@@ -1,10 +1,10 @@
-context('Facebook post', () => {
+context('Insert coin and can buy drink', () => {
     beforeEach(() => {
-      //
+      cy.visit('https://vending-machine.zerojame.me/')
     })
   
-    it('fb-02: post success', () => {
-     //
+    it('VM-01', () => {
+      //
     })
   
   })
