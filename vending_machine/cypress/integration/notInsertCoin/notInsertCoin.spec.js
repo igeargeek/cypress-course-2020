@@ -3,7 +3,7 @@ context('Not insert coin', () => {
     cy.visit('https://vending-machine.zerojame.me/')
   })
 
-  it('VM-04 : Click Pepsi max without coins and should provide error message', () => {
+  it('VM-05 : Click Pepsi max without coins and should provide error message', () => {
     // 
   })
 
