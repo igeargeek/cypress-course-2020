@@ -3,7 +3,7 @@ context('Facebook post', () => {
       //
     })
   
-    it('fb-02: post success', () => {
+    it('fb-01: post success', () => {
      //
     })
   
