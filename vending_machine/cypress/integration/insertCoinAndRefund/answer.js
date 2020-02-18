@@ -3,7 +3,7 @@ context('Insert with correct and incorrect', () => {
     cy.visit('https://vending-machine.zerojame.me/')
   })
 
-  it('VM-05 : Insert coin and should refund with correct amount', () => {
+  it('VM-06 : Insert coin and should refund with correct amount', () => {
     let tenCoinTotal = 0
     let fiveCoinTotal = 0 
     let twoCoinTotal = 0 
@@ -20,7 +20,7 @@ context('Insert with correct and incorrect', () => {
   })
 
 
-  it('VM-05 : Insert coin and should refund with incorrect amount', () => {
+  it('VM-06 : Insert coin and should refund with incorrect amount', () => {
     let tenCoinTotal = 0
     let fiveCoinTotal = 0 
     let twoCoinTotal = 0 

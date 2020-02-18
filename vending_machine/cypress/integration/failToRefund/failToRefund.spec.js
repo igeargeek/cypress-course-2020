@@ -3,7 +3,7 @@ context('Fail to refund', () => {
     cy.visit('https://vending-machine.zerojame.me/')
   })
 
-  it('VM-06 : Fail to refund', () => {
+  it('VM-07 : Fail to refund', () => {
     //
   })
 
