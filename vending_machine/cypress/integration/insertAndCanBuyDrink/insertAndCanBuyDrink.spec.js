@@ -11,7 +11,7 @@ context('Insert coin and can buy drink', () => {
       //
     })
 
-    it.only('User insert 10 baht and 2 baht coins and select Pepsi Max but cant select it because user dont have enough money', () => {
+    it('User insert 10 baht and 2 baht coins and select Pepsi Max but cant select it because user dont have enough money', () => {
       //
     })
   

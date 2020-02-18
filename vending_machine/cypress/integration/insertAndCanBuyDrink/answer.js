@@ -29,7 +29,7 @@ context('Insert coin and can buy drink', () => {
     cy.get('.swal-button').click()
   })
 
-  it.only('User insert 10 baht and 2 baht coins and select Pepsi Max but cant select it because user dont have enough money', () => {
+  it('User insert 10 baht and 2 baht coins and select Pepsi Max but cant select it because user dont have enough money', () => {
     cy.get('#ten_coin_button').click()
     cy.get('#two_coin_button').click()
     cy.get('[data-cy=buy_button_Pepsi_Max]').click()
